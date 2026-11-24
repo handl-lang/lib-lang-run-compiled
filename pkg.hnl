@@ -1,0 +1,13 @@
+-- lib-lang-run-compiled: the `lang_run_compiled` module — the
+-- `run_compiled` meta function as a composable `plugin-lib-*` leaf
+-- crate. Transitional layout: the .hnl surface is
+-- `handl-packages/lang_run_compiled/lang_run_compiled.hnl`; the
+-- compiled-program runner stays Rust.
+{
+  modules: ["lang_run_compiled"],
+  name: "lang_run_compiled",
+  description: "The run_compiled meta function — execute a compiled-program handle produced by compile.",
+  license: "MIT",
+  keywords: ["run", "compiled", "meta", "lang", "handl"],
+  homepage: "https://github.com/handl-lang/lib-lang-run-compiled",
+}
