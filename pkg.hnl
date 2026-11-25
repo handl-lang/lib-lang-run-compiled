@@ -5,7 +5,7 @@
 -- compiled-program runner stays Rust.
 {
   modules: ["lang_run_compiled"],
-  name: "lang_run_compiled",
+  name: "lang-run-compiled",
   description: "The run_compiled meta function — execute a compiled-program handle produced by compile.",
   license: "MIT",
   keywords: ["run", "compiled", "meta", "lang", "handl"],
