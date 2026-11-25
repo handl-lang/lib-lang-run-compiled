@@ -3,6 +3,7 @@
 -- crate. Transitional layout: the .hnl surface is
 -- `handl-packages/lang_run_compiled/lang_run_compiled.hnl`; the
 -- compiled-program runner stays Rust.
+-- test_coverage "none": comment-only interface decl — the compiled-program runner stays Rust.
 {
   modules: ["lang_run_compiled"],
   name: "lang-run-compiled",
@@ -10,4 +11,5 @@
   license: "MIT",
   keywords: ["run", "compiled", "meta", "lang", "handl"],
   homepage: "https://github.com/handl-lang/lib-lang-run-compiled",
+  test_coverage: "none",
 }
